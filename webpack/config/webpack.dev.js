@@ -14,7 +14,7 @@ const devConfig = {
         filename: 'js/[name].js'
     },
     devServer: {
-        host: '0.0.0.0',
+        host: 'localhost',
         compress: true, // 是否启用 gzip 压缩
         stats: 'errors-only', // 终端仅打印 error
         clientLogLevel: 'silent', // 日志等级
